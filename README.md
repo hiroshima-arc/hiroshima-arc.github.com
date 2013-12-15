@@ -30,6 +30,11 @@ MiddleManを使ってHiroshima-ARCサイトを管理する。
     $ git remote add origin git@github.com:hiroshima-arc/hiroshima-arc.github.com.git
     $ bundle exec middleman build
     $ bundle exec middleman deploy
+    $ git add .
+    $ git commit -a -m "セットアップ"
+    $ git branch dev
+    $ git checkout dev
+    $ git push origin dev
 
 # 参照 #
 
