@@ -8,8 +8,8 @@ MiddleManを使ってHiroshima-ARCサイトを管理する。
 | ソフトウェア   | バージョン   | 備考        |
 |:---------------|:-------------|:------------|
 | OS X           |10.8.5        |             |
-| ruby           |2.0.0-p247    |             |
-| rvm            |1.24.0        |             |
+| ruby           |2.2.1-p85    |             |
+| rbenv          |0.4.0        |             |
 | middleman      |3.2.0         |             |
 | bootstrap      |3.0.2         |             |
 
@@ -22,9 +22,8 @@ MiddleManを使ってHiroshima-ARCサイトを管理する。
 
 ## セットアップ ##
 
-    $ rvm use ruby-2.0.0-p247
-    $ rvm gemset create hiroshima_arc_githubpage
-    $ rvm use ruby-2.0.0-p247@hiroshima_arc_githubpage
+    $ rbenv install 2.2.1
+    $ rbenv global 2.2.1
     $ bundle
     $ git init
     $ git remote add origin git@github.com:hiroshima-arc/hiroshima-arc.github.com.git
