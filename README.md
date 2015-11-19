@@ -7,9 +7,9 @@ MiddleManを使ってHiroshima-ARCサイトを管理する。
 # 前提 #
 | ソフトウェア   | バージョン   | 備考        |
 |:---------------|:-------------|:------------|
-| OS X           |10.8.5        |             |
+| vagrant        |1.7.4        |             |
 | ruby           |2.2.1-p85    |             |
-| rbenv          |0.4.0        |             |
+| rbenv          |0.4.0-181-gd740406      |             |
 | middleman      |3.2.0         |             |
 | bootstrap      |3.0.2         |             |
 
@@ -20,19 +20,23 @@ MiddleManを使ってHiroshima-ARCサイトを管理する。
 
 # 詳細 #
 
-## セットアップ ##
+## セットアップ(動作確認)
+    $ vagrant up
+    $ vagrant ssh
+    $ git clone -b dev https://github.com/hiroshima-arc/hiroshima-arc.github.com.git
+    $ cd hiroshima-arc.github.com/
+    $ bundle install --path ./vendor/bundle
+    $ bundle exec middleman
+    
+ローカルマシンから`http://localhost:8080/`で動作を確認する。    
 
-    $ rbenv install 2.2.1
-    $ rbenv global 2.2.1
-    $ bundle
-    $ git init
-    $ git remote add origin git@github.com:hiroshima-arc/hiroshima-arc.github.com.git
+## セットアップ(デプロイ)
+    
+    $ git checkout dev
     $ bundle exec middleman build
     $ bundle exec middleman deploy
     $ git add .
-    $ git commit -a -m "セットアップ"
-    $ git branch dev
-    $ git checkout dev
+    $ git commit -a -m "コメント"
     $ git push origin dev
 
 # 参照 #
