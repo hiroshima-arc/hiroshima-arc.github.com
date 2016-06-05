@@ -14,3 +14,5 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "bootstrap-sass", require: false
 
 gem 'middleman-deploy'
+
+gem 'rake', '~>11.1.0'
