@@ -5,7 +5,7 @@ body {
 /* change the URL to a picture of your choice - the higher quality the better! */
 .business-header {
 	height: 400px;
-	background: url(http://placehold.it/1920x400) center center no-repeat;
+	background: url(../img/keyboard-1385706_1920.jpg) center center no-repeat;
 	background-size: cover;
 }
 
@@ -13,6 +13,7 @@ body {
 .tagline {
 	color: #fff;
 	text-shadow: 0 0 10px #000;
+	font-size: 100px;
 }
 
 footer {
