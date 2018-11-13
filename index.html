@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- Use title if it's in the page YAML frontmatter -->
+        <title>HTML5 Boilerplate Middleman</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap_loader.css">
+        <link rel="stylesheet" href="css/business-frontpage.css">        
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">広島ARC</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    
+    <div class="business-header">
+    
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+          	<!-- The background image is set in the custom CSS -->
+            <h1 class="tagline">Agile Ruby Cloud@広島</h1>
+          </div>
+        </div>
+      
+      </div>
+    
+    </div>
+    
+    <div class="container">
+
+      <hr>
+
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <h2>What's new</h2>
+          <li>2018-11-09 <a href="https://hiroshima-arc.connpass.com/event/105735/" target="_blank"> Re:ゼロから始めるテスト駆動開発生活 </a> </li>
+          <li>2018-10-19 <a href="https://hiroshima-arc.connpass.com/event/105339/" target="_blank">  AWS サーバーレスアプリケーションモデル (AWS SAM) ハンズオン(β版)  </a> </li>
+          <li>2016-09-17 <a href="http://sukusuku-scrum-hiroshima.connpass.com/event/39999/" target="_blank">すくすくスクラム + aug中国共催イベント </a> </li>
+          <li>2016-06-29 <a href="http://augca.connpass.com/event/33349/" target="_blank">第1回 【広島】 Atlassian ユーザーグループ 中国地方</a> </li>
+          <li>2016-06-01 サイトオープン</li>
+        </div>
+      </div>
+
+      <hr>
+      
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <h2>What We Do</h2>
+          <p>広島ARCはAgile,Ruby,Cloudをテーマに主に広島で開催されている関連情報の共有を目的としています。</p>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <h2>Contact Us</h2>
+          <address>
+            <abbr title="Email">E:</abbr> <a href="mailto:#">hiroshima.arc@gmail.com</a><br>
+            <abbr title="GitHub">G:</abbr><a href="https://github.com/hiroshima-arc" target="_blank">https://github.com/hiroshima-arc</a><br>
+            <abbr title="Project">P:</abbr><a href="https://hiroshima-arc.atlassian.net/projects/ARC/board" target="_blank">https://hiroshima-arc.atlassian.net</a>
+          </address>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-sm-4">
+        	<img class="img-circle img-responsive text-center" src="http://placehold.it/300/33cc66/000000?text=Agile">
+            <h2>アジャイル開発</h2>
+            <p>アジャイル開発に関連するトピック（スクラム・カンバン等）。その他、リーンスタートアップなど主にマネジメント・ビジネスサイドサイドのテーマです。</p>
+        </div>
+        <div class="col-sm-4">
+        	<img class="img-circle img-responsive" src="http://placehold.it/300/ff6666/000000?text=Ruby">
+            <h2>軽量プログラミング言語</h2>
+            <p>主にRubyに関連するトピックを扱いますが、Rubyに限らずPython,PHP,JavaScript等、軽量プログラミング言語（lightweight language）も含めたアプリケーション開発・エンジニアリングサイドのテーマです。</p>
+        </div>
+        <div class="col-sm-4">
+        	<img class="img-circle img-responsive" src="http://placehold.it/300/3366cc/000000?text=Cloud">
+            <h2>クラウドサービス</h2>
+            <p>主にAWS(Amazon Web Service)に関連するトピックを扱いますが、AWSに限らずGoogle Cloud Platform(GCP) Microsoft Azureも含めたインフラストラクチャ開発・エンジニアリングサイドのテーマです。</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Hiroshima ARC 2016</p>
+          </div>
+        </div>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.js"></script>        
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

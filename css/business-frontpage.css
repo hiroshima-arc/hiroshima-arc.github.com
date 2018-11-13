@@ -1,0 +1,22 @@
+/* line 1, /Users/k2works/Projects/hiroshima-arc/hiroshima-arc.github.com/source/css/business-frontpage.css.scss */
+body {
+  margin-top: 50px;
+  /* 50px is the height of the navbar - change this if the navbarn height changes */ }
+
+/* change the URL to a picture of your choice - the higher quality the better! */
+/* line 6, /Users/k2works/Projects/hiroshima-arc/hiroshima-arc.github.com/source/css/business-frontpage.css.scss */
+.business-header {
+  height: 400px;
+  background: url(../img/keyboard-1385706_1920.jpg) center center no-repeat;
+  background-size: cover; }
+
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
+/* line 13, /Users/k2works/Projects/hiroshima-arc/hiroshima-arc.github.com/source/css/business-frontpage.css.scss */
+.tagline {
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+  font-size: 100px; }
+
+/* line 19, /Users/k2works/Projects/hiroshima-arc/hiroshima-arc.github.com/source/css/business-frontpage.css.scss */
+footer {
+  margin: 50px 0; }
