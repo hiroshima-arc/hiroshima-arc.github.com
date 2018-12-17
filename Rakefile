@@ -1,3 +1,10 @@
+desc "Local preview"
+task :local do
+  puts "## Running local (middleman server)"
+  status = system("middleman server")
+  puts status ? "OK" : "FAILED"
+end
+
 desc "Commit and push changes to Github"
 task :push, [:msg] do |t, args|
   puts "## Adding all files (git add .)"
